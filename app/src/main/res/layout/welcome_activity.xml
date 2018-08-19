@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcome_header"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="@string/rules_header"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.104" />
+
+    <TextView
+        android:id="@+id/welcome_text"
+        android:layout_width="266dp"
+        android:layout_height="153dp"
+        android:text="@string/rules"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <Button
+        android:id="@+id/welcome_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_red_light"
+        android:onClick="welcomeDone"
+        android:text="@string/cont"
+        android:textColor="@android:color/white"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="372dp" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">BattleshipsSparklyEdition</string>
+    <string name="rules_header">Regeln</string>
+    <string name="rules">1) Boote dürfen sich nicht berühren, auch nicht an den Ecken \n
+    2) Boote können nur senkrecht und waagerecht, nicht aber diagonal platziert werden\n
+    3) Nach einem Treffer ist der Spieler erneut dran, solange bis er nicht mehr trifft.</string>
+    <string name="boats">Es können folgende Schiffe platziert werden:\n
+    1 x Schlachtschiff (5 Felder)\n
+    2 x Kreuzer (4 Felder)\n
+    3 x Zerstörer (3 Felder)\n
+    4 x U-Boote (2 Felder)</string>
+    <string name="board">A - J und 1 - 10</string>
+    <string name="cont">Weiter</string>
 </resources>
